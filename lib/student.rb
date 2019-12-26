@@ -103,4 +103,7 @@ class Student
       self.new_from_db(row)
     end.first
   end
+
+  def self.all_students_in_grade_X
+  end
 end
